@@ -1,0 +1,32 @@
+####################
+# Common Variables #
+####################
+company     = "dalthonmh"
+prefix      = "cat"
+environment = "dev"
+location    = "canadacentral"
+description = "Windows VM catastro - Canada Central"
+owner       = "Dalthon Mamani"
+app_name    = "IaaS"
+
+##################
+# Authentication #
+##################
+azure-subscription-id = ""
+azure-client-id       = ""
+azure-client-secret   = ""
+azure-tenant-id       = ""
+
+###################
+# Bastion Network #
+###################
+bastion-vnet-cidr   = "10.10.0.0/16"
+bastion-subnet-cidr = "10.10.1.0/24"
+
+##############
+# Bastion VM #
+##############
+bastion-windows-vm-hostname    = "catastro"
+bastion-windows-vm-size        = "Standard_B4ms"
+bastion-windows-admin-username = "azureuser"
+bastion-windows-admin-password = "AzureUserP@ss2026!"
