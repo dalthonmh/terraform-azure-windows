@@ -27,6 +27,6 @@ bastion-subnet-cidr = "10.10.1.0/24"
 # Bastion VM #
 ##############
 bastion-windows-vm-hostname    = "catastro"
-bastion-windows-vm-size        = "Standard_B4ms"
+bastion-windows-vm-size        = "Standard_D2s_v4"
 bastion-windows-admin-username = "azureuser"
 bastion-windows-admin-password = ""
